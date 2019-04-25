@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD0521A322702BD600086059 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CD0521A222702BD600086059 /* Readme.md */; };
 		CD6FFBBB226D8B2A00C040AA /* CustomizedTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FFBBA226D8B2A00C040AA /* CustomizedTextfield.swift */; };
 		CD6FFBC0226D9CA000C040AA /* paidy_Sandbox.html in Resources */ = {isa = PBXBuildFile; fileRef = CD6FFBBE226D9CA000C040AA /* paidy_Sandbox.html */; };
-		CD6FFBC1226D9CA000C040AA /* pandy-favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FFBBF226D9CA000C040AA /* pandy-favicon.png */; };
 		CD6FFBC5226DC15000C040AA /* paidy_Live.html in Resources */ = {isa = PBXBuildFile; fileRef = CD6FFBC4226DC15000C040AA /* paidy_Live.html */; };
 		CD6FFBC8226DE4E600C040AA /* PaymentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FFBC7226DE4E600C040AA /* PaymentInfo.swift */; };
 		CD95EC56226B0128009B65B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95EC55226B0128009B65B4 /* AppDelegate.swift */; };
@@ -20,6 +18,7 @@
 		CD95EC68226B018A009B65B4 /* PaymentDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95EC67226B018A009B65B4 /* PaymentDetailController.swift */; };
 		CD95EC6A226B1875009B65B4 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95EC69226B1875009B65B4 /* PaymentViewController.swift */; };
 		CD95EC6F226B2227009B65B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD95EC6E226B2227009B65B4 /* WebKit.framework */; };
+		D13BAE002271E37A00D10464 /* paidy-favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BADFF2271E37900D10464 /* paidy-favicon.png */; };
 		EA3B7910E43A55785633F2DB /* Pods_Paidy_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E5812AFB6528C6DDD7D2F /* Pods_Paidy_ios.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,10 +26,8 @@
 		264FDB9822C19E39C65003D1 /* Pods-Paidy_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paidy_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paidy_ios/Pods-Paidy_ios.release.xcconfig"; sourceTree = "<group>"; };
 		5370FD84E3EEB2C095E2EA43 /* Pods-Paidy_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paidy_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paidy_ios/Pods-Paidy_ios.debug.xcconfig"; sourceTree = "<group>"; };
 		650E5812AFB6528C6DDD7D2F /* Pods_Paidy_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paidy_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD0521A222702BD600086059 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		CD6FFBBA226D8B2A00C040AA /* CustomizedTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedTextfield.swift; sourceTree = "<group>"; };
 		CD6FFBBE226D9CA000C040AA /* paidy_Sandbox.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paidy_Sandbox.html; sourceTree = "<group>"; };
-		CD6FFBBF226D9CA000C040AA /* pandy-favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pandy-favicon.png"; sourceTree = "<group>"; };
 		CD6FFBC4226DC15000C040AA /* paidy_Live.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paidy_Live.html; sourceTree = "<group>"; };
 		CD6FFBC7226DE4E600C040AA /* PaymentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfo.swift; sourceTree = "<group>"; };
 		CD95EC52226B0128009B65B4 /* Paidy_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paidy_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +39,7 @@
 		CD95EC67226B018A009B65B4 /* PaymentDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailController.swift; sourceTree = "<group>"; };
 		CD95EC69226B1875009B65B4 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		CD95EC6E226B2227009B65B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D13BADFF2271E37900D10464 /* paidy-favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paidy-favicon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,7 @@
 				CD6FFBBA226D8B2A00C040AA /* CustomizedTextfield.swift */,
 				CD6FFBBE226D9CA000C040AA /* paidy_Sandbox.html */,
 				CD6FFBC4226DC15000C040AA /* paidy_Live.html */,
-				CD6FFBBF226D9CA000C040AA /* pandy-favicon.png */,
+				D13BADFF2271E37900D10464 /* paidy-favicon.png */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -105,7 +103,6 @@
 		CD95EC49226B0128009B65B4 = {
 			isa = PBXGroup;
 			children = (
-				CD0521A222702BD600086059 /* Readme.md */,
 				CD95EC54226B0128009B65B4 /* Paddy_ios */,
 				CD95EC53226B0128009B65B4 /* Products */,
 				CD95EC6D226B2227009B65B4 /* Frameworks */,
@@ -205,12 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0521A322702BD600086059 /* Readme.md in Resources */,
 				CD6FFBC0226D9CA000C040AA /* paidy_Sandbox.html in Resources */,
 				CD95EC60226B0129009B65B4 /* LaunchScreen.storyboard in Resources */,
-				CD6FFBC1226D9CA000C040AA /* pandy-favicon.png in Resources */,
 				CD95EC5D226B0129009B65B4 /* Assets.xcassets in Resources */,
 				CD6FFBC5226DC15000C040AA /* paidy_Live.html in Resources */,
+				D13BAE002271E37A00D10464 /* paidy-favicon.png in Resources */,
 				CD95EC5B226B0128009B65B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
