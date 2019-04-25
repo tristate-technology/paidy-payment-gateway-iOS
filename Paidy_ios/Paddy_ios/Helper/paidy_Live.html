@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+
+    <body>
+    	<div style="display: flex; align-items:  center; justify-content: center; height:calc(100vh - 30px);">
+     <button id="paidy-checkout-button" onclick="paidyPay()" style="border: none; background-color: #2e8bc5; font-size:20px; color: white; margin:30px auto; text-align: center; display: flex; padding:12px 30px; border-radius: 5px; cursor: pointer; align-items: center; justify-content: center;"> <img src="pandy-favicon.png" alt="pandy" style="width:30px; margin-right: 10px;"> Paidyでお支払い</button>
+      <script type="text/javascript" src="https://apps.paidy.com/"></script>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8">
+      <script type="text/javascript">
+                      var config = {
+                           // Put your Live enviorment key
+                           "api_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                           "logo_url": "http://www.paidy.com/images/logo.png",
+                           "closed": function(callbackData) {
+                            triggerWithCustomMessage(callbackData);
+                                
+								console.log(callbackData);
+                                
+                           },
+                           "token": {
+                                "wallet_id": "default",
+                                "type": "recurring",
+								"description":"Sample Description"
+                            }
+                      };
+      function triggerWithCustomMessage(inputName) {
+          var value = {token: inputName.id, status: inputName.status};
+          var jsonString = (JSON.stringify(value));
+          var escapedJsonParameters = escape(jsonString);
+          var appName = 'Paidy Demo';
+          var actionType = 'getToken';
+          
+          var url = appName + '://' + actionType + "#" + escapedJsonParameters;
+          document.location.href = url;
+      };
+      var paidyIOSdata = "";
+      function paidyPaynew(strdata){
+          paidyIOSdata = strdata;
+      };
+                      var paidyHandler = Paidy.configure(config);
+                      function paidyPay() {
+                      console.log(paidyIOSdata["store_name"])
+                      paidyHandler.launch(paidyIOSdata);
+     };
+     </script>
+  </body>
+</html>
+

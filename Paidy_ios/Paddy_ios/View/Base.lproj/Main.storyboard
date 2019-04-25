@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nd0-Cn-G7z">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Payment Detail Controller-->
+        <scene sceneID="omW-Nd-39V">
+            <objects>
+                <viewController storyboardIdentifier="PaymentDetailController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GoG-h7-iQU" customClass="PaymentDetailController" customModule="Paidy_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nuv-dc-dmJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JdZ-1F-oGb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pc0-Hl-pgy">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="954"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KA-7z-fTv">
+                                                <rect key="frame" x="15" y="20" width="384" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="euM-BG-rFB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LSq-9t-MYS" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="46" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Y53-Ev-A3L"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7i-ZD-oZR">
+                                                <rect key="frame" x="15" y="84" width="384" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="8p6-qG-e8b"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c3r-6y-qJx" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="110" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="mgI-6Y-G7d"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Of Birth:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAI-1w-cld">
+                                                <rect key="frame" x="15" y="155" width="384" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="ttj-U8-9Tl"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d4C-xH-n0u" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="181" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="aE3-lt-RLy"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JD-AI-fdH">
+                                                <rect key="frame" x="15" y="226" width="384" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="K28-Kh-yBw"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MDW-Ho-bBI" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="252" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="TNL-r7-Cqs"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3F-Aa-tml">
+                                                <rect key="frame" x="15" y="297" width="384" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="bcM-Eg-qni"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lnq-zA-Pxk" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="323" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="DYQ-6y-HfR"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="phonePad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shipping Address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhE-jb-ziw">
+                                                <rect key="frame" x="15" y="368" width="384" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="4LU-9K-kPS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" tag="5" contentMode="scaleToFill" verticalCompressionResistancePriority="753" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Line 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yMV-Aq-Dex" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="394" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="TYW-f2-XQf"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" tag="6" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Line 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v6L-46-KKS" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="429" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="SeV-18-q2a"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" tag="7" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dYm-U8-zpc" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="464" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="TSN-7z-Waa"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hno-GH-Yju" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="499" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Qok-AN-1YQ"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" tag="9" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Zipcode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UYt-jz-GVJ" customClass="CustomizedTextfield" customModule="Paidy_ios" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="534" width="384" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="YOd-Uq-fCd"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sp4-0l-8Pb">
+                                                <rect key="frame" x="104" y="584" width="206" height="40"/>
+                                                <color key="backgroundColor" red="0.043137254899999998" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="206" id="QrQ-D5-UHo"/>
+                                                    <constraint firstAttribute="height" constant="40" id="YTU-PX-vYE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                <state key="normal" title="Pay With Paidy">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnPayAction:" destination="GoG-h7-iQU" eventType="touchUpInside" id="snM-1B-Lh3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="MDW-Ho-bBI" firstAttribute="trailing" secondItem="3JD-AI-fdH" secondAttribute="trailing" id="04e-SZ-lkl"/>
+                                            <constraint firstItem="dYm-U8-zpc" firstAttribute="top" secondItem="v6L-46-KKS" secondAttribute="bottom" constant="5" id="0Rk-Gk-4rb"/>
+                                            <constraint firstItem="c3r-6y-qJx" firstAttribute="top" secondItem="j7i-ZD-oZR" secondAttribute="bottom" constant="5" id="2ti-R6-MtS"/>
+                                            <constraint firstItem="IAI-1w-cld" firstAttribute="trailing" secondItem="c3r-6y-qJx" secondAttribute="trailing" id="3gx-4d-XvG"/>
+                                            <constraint firstItem="UYt-jz-GVJ" firstAttribute="top" secondItem="Hno-GH-Yju" secondAttribute="bottom" constant="5" id="48a-hm-jfg"/>
+                                            <constraint firstItem="yMV-Aq-Dex" firstAttribute="trailing" secondItem="RhE-jb-ziw" secondAttribute="trailing" id="4Rj-Qa-sXL"/>
+                                            <constraint firstItem="v6L-46-KKS" firstAttribute="trailing" secondItem="yMV-Aq-Dex" secondAttribute="trailing" id="4ey-aw-kNY"/>
+                                            <constraint firstItem="UYt-jz-GVJ" firstAttribute="trailing" secondItem="Hno-GH-Yju" secondAttribute="trailing" id="6sa-z2-Eda"/>
+                                            <constraint firstItem="dYm-U8-zpc" firstAttribute="trailing" secondItem="v6L-46-KKS" secondAttribute="trailing" id="8Um-yG-CWf"/>
+                                            <constraint firstItem="RhE-jb-ziw" firstAttribute="leading" secondItem="Lnq-zA-Pxk" secondAttribute="leading" id="8b4-3r-207"/>
+                                            <constraint firstItem="Hno-GH-Yju" firstAttribute="top" secondItem="dYm-U8-zpc" secondAttribute="bottom" constant="5" id="9eb-Ga-Y7g"/>
+                                            <constraint firstItem="2KA-7z-fTv" firstAttribute="leading" secondItem="pc0-Hl-pgy" secondAttribute="leading" constant="15" id="AHW-x5-iAc"/>
+                                            <constraint firstItem="2KA-7z-fTv" firstAttribute="top" secondItem="pc0-Hl-pgy" secondAttribute="top" constant="20" id="ARt-vS-Hix"/>
+                                            <constraint firstItem="Hno-GH-Yju" firstAttribute="trailing" secondItem="dYm-U8-zpc" secondAttribute="trailing" id="CQM-f7-3pf"/>
+                                            <constraint firstAttribute="trailing" secondItem="2KA-7z-fTv" secondAttribute="trailing" constant="15" id="D9J-tW-9fX"/>
+                                            <constraint firstItem="U3F-Aa-tml" firstAttribute="leading" secondItem="MDW-Ho-bBI" secondAttribute="leading" id="EH9-DV-5UE"/>
+                                            <constraint firstItem="LSq-9t-MYS" firstAttribute="top" secondItem="2KA-7z-fTv" secondAttribute="bottom" constant="5" id="EkA-ec-h5j"/>
+                                            <constraint firstItem="d4C-xH-n0u" firstAttribute="trailing" secondItem="IAI-1w-cld" secondAttribute="trailing" id="Fdb-Cx-WNF"/>
+                                            <constraint firstItem="dYm-U8-zpc" firstAttribute="leading" secondItem="v6L-46-KKS" secondAttribute="leading" id="Fgu-ji-ZbU"/>
+                                            <constraint firstItem="yMV-Aq-Dex" firstAttribute="leading" secondItem="RhE-jb-ziw" secondAttribute="leading" id="GJv-Tt-3Mh"/>
+                                            <constraint firstItem="U3F-Aa-tml" firstAttribute="top" secondItem="MDW-Ho-bBI" secondAttribute="bottom" constant="15" id="Nbs-ze-jTv"/>
+                                            <constraint firstItem="3JD-AI-fdH" firstAttribute="leading" secondItem="d4C-xH-n0u" secondAttribute="leading" id="Ncy-qy-O8G"/>
+                                            <constraint firstItem="Lnq-zA-Pxk" firstAttribute="leading" secondItem="U3F-Aa-tml" secondAttribute="leading" id="ONQ-64-fCT"/>
+                                            <constraint firstItem="c3r-6y-qJx" firstAttribute="trailing" secondItem="j7i-ZD-oZR" secondAttribute="trailing" id="SBb-v4-Kee"/>
+                                            <constraint firstItem="3JD-AI-fdH" firstAttribute="top" secondItem="d4C-xH-n0u" secondAttribute="bottom" constant="15" id="TVc-DQ-OZT"/>
+                                            <constraint firstItem="MDW-Ho-bBI" firstAttribute="leading" secondItem="3JD-AI-fdH" secondAttribute="leading" id="Tna-k5-ar6"/>
+                                            <constraint firstItem="d4C-xH-n0u" firstAttribute="top" secondItem="IAI-1w-cld" secondAttribute="bottom" constant="5" id="VeH-Gb-NXt"/>
+                                            <constraint firstItem="j7i-ZD-oZR" firstAttribute="trailing" secondItem="LSq-9t-MYS" secondAttribute="trailing" id="bEd-gA-hew"/>
+                                            <constraint firstItem="UYt-jz-GVJ" firstAttribute="leading" secondItem="Hno-GH-Yju" secondAttribute="leading" id="c2q-vl-Q7c"/>
+                                            <constraint firstItem="Lnq-zA-Pxk" firstAttribute="top" secondItem="U3F-Aa-tml" secondAttribute="bottom" constant="5" id="cuz-5f-HpA"/>
+                                            <constraint firstItem="3JD-AI-fdH" firstAttribute="trailing" secondItem="d4C-xH-n0u" secondAttribute="trailing" id="d2P-U8-kuH"/>
+                                            <constraint firstItem="U3F-Aa-tml" firstAttribute="trailing" secondItem="MDW-Ho-bBI" secondAttribute="trailing" id="dSA-xN-GyZ"/>
+                                            <constraint firstItem="j7i-ZD-oZR" firstAttribute="top" secondItem="LSq-9t-MYS" secondAttribute="bottom" constant="8" id="dhA-KT-Z5l"/>
+                                            <constraint firstItem="v6L-46-KKS" firstAttribute="top" secondItem="yMV-Aq-Dex" secondAttribute="bottom" constant="5" id="e7n-ME-8Wd"/>
+                                            <constraint firstItem="yMV-Aq-Dex" firstAttribute="top" secondItem="RhE-jb-ziw" secondAttribute="bottom" constant="5" id="erd-Ve-LZO"/>
+                                            <constraint firstItem="IAI-1w-cld" firstAttribute="leading" secondItem="c3r-6y-qJx" secondAttribute="leading" id="g8b-Qw-YM3"/>
+                                            <constraint firstItem="sp4-0l-8Pb" firstAttribute="top" secondItem="UYt-jz-GVJ" secondAttribute="bottom" constant="20" id="jah-IQ-mpS"/>
+                                            <constraint firstItem="j7i-ZD-oZR" firstAttribute="leading" secondItem="LSq-9t-MYS" secondAttribute="leading" id="jfN-of-Lsz"/>
+                                            <constraint firstItem="RhE-jb-ziw" firstAttribute="top" secondItem="Lnq-zA-Pxk" secondAttribute="bottom" constant="15" id="lcG-Vb-B3Q"/>
+                                            <constraint firstItem="IAI-1w-cld" firstAttribute="top" secondItem="c3r-6y-qJx" secondAttribute="bottom" constant="15" id="mwb-b5-sja"/>
+                                            <constraint firstItem="MDW-Ho-bBI" firstAttribute="top" secondItem="3JD-AI-fdH" secondAttribute="bottom" constant="5" id="nFt-7U-3dI"/>
+                                            <constraint firstItem="LSq-9t-MYS" firstAttribute="leading" secondItem="pc0-Hl-pgy" secondAttribute="leading" constant="15" id="oay-Vv-um1"/>
+                                            <constraint firstAttribute="trailing" secondItem="LSq-9t-MYS" secondAttribute="trailing" constant="15" id="svh-pU-cv9"/>
+                                            <constraint firstItem="v6L-46-KKS" firstAttribute="leading" secondItem="yMV-Aq-Dex" secondAttribute="leading" id="swT-Yg-Q5S"/>
+                                            <constraint firstItem="sp4-0l-8Pb" firstAttribute="centerX" secondItem="pc0-Hl-pgy" secondAttribute="centerX" id="tfE-vA-20y"/>
+                                            <constraint firstItem="RhE-jb-ziw" firstAttribute="trailing" secondItem="Lnq-zA-Pxk" secondAttribute="trailing" id="uRo-is-qVz"/>
+                                            <constraint firstItem="d4C-xH-n0u" firstAttribute="leading" secondItem="IAI-1w-cld" secondAttribute="leading" id="uZL-FS-vUC"/>
+                                            <constraint firstItem="c3r-6y-qJx" firstAttribute="leading" secondItem="j7i-ZD-oZR" secondAttribute="leading" id="xVi-cj-aL4"/>
+                                            <constraint firstItem="Lnq-zA-Pxk" firstAttribute="trailing" secondItem="U3F-Aa-tml" secondAttribute="trailing" id="zDQ-W8-zvN"/>
+                                            <constraint firstItem="Hno-GH-Yju" firstAttribute="leading" secondItem="dYm-U8-zpc" secondAttribute="leading" id="zhb-Hx-3lx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="pc0-Hl-pgy" secondAttribute="bottom" id="0LW-kK-Jcc"/>
+                                    <constraint firstItem="pc0-Hl-pgy" firstAttribute="top" secondItem="JdZ-1F-oGb" secondAttribute="top" id="1TG-d0-5Ue"/>
+                                    <constraint firstItem="pc0-Hl-pgy" firstAttribute="height" secondItem="JdZ-1F-oGb" secondAttribute="height" constant="180" id="KRK-jp-9jC"/>
+                                    <constraint firstAttribute="trailing" secondItem="pc0-Hl-pgy" secondAttribute="trailing" id="Lnt-r2-Kov"/>
+                                    <constraint firstItem="pc0-Hl-pgy" firstAttribute="leading" secondItem="JdZ-1F-oGb" secondAttribute="leading" id="Mc4-vm-nwV"/>
+                                    <constraint firstItem="pc0-Hl-pgy" firstAttribute="width" secondItem="JdZ-1F-oGb" secondAttribute="width" id="UQG-Ac-Ufe"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JdZ-1F-oGb" firstAttribute="leading" secondItem="ghc-6u-E0x" secondAttribute="leading" id="1Gh-Qg-4oh"/>
+                            <constraint firstItem="ghc-6u-E0x" firstAttribute="trailing" secondItem="JdZ-1F-oGb" secondAttribute="trailing" id="gV9-M0-SYm"/>
+                            <constraint firstItem="JdZ-1F-oGb" firstAttribute="top" secondItem="ghc-6u-E0x" secondAttribute="top" id="noF-xp-JYE"/>
+                            <constraint firstItem="ghc-6u-E0x" firstAttribute="bottom" secondItem="JdZ-1F-oGb" secondAttribute="bottom" id="sH2-fR-uL1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ghc-6u-E0x"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZHr-84-nUc"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="btnPay" destination="sp4-0l-8Pb" id="wSD-ux-cBq"/>
+                        <outlet property="scrollView" destination="JdZ-1F-oGb" id="c6o-e4-vQ6"/>
+                        <outlet property="txtAddressLine2" destination="v6L-46-KKS" id="czj-Co-JLl"/>
+                        <outlet property="txtAdressLine1" destination="yMV-Aq-Dex" id="Imc-wZ-SBZ"/>
+                        <outlet property="txtCity" destination="dYm-U8-zpc" id="9ea-GC-zOl"/>
+                        <outlet property="txtDateofbirth" destination="d4C-xH-n0u" id="6zh-AJ-ZUX"/>
+                        <outlet property="txtDisplyname" destination="c3r-6y-qJx" id="p9j-pJ-fMM"/>
+                        <outlet property="txtEmail" destination="MDW-Ho-bBI" id="sN2-gy-V1N"/>
+                        <outlet property="txtFullname" destination="LSq-9t-MYS" id="xzj-th-wAP"/>
+                        <outlet property="txtPhone" destination="Lnq-zA-Pxk" id="gAF-GL-4Eq"/>
+                        <outlet property="txtState" destination="Hno-GH-Yju" id="fI8-i8-sQL"/>
+                        <outlet property="txtZipcode" destination="UYt-jz-GVJ" id="fyc-TB-sHe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="87c-NH-MqW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921.73913043478262" y="144.64285714285714"/>
+        </scene>
+        <!--Paidy-->
+        <scene sceneID="BMt-L3-vr1">
+            <objects>
+                <viewController storyboardIdentifier="PaymentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="A0s-Ga-dC9" customClass="PaymentViewController" customModule="Paidy_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LIp-TO-yBY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gf2-dH-A8i">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DsN-gY-x7w" firstAttribute="bottom" secondItem="gf2-dH-A8i" secondAttribute="bottom" id="CUd-67-KwG"/>
+                            <constraint firstItem="gf2-dH-A8i" firstAttribute="leading" secondItem="DsN-gY-x7w" secondAttribute="leading" id="FkK-tP-ggb"/>
+                            <constraint firstItem="gf2-dH-A8i" firstAttribute="top" secondItem="DsN-gY-x7w" secondAttribute="top" id="LHM-ne-laL"/>
+                            <constraint firstItem="DsN-gY-x7w" firstAttribute="trailing" secondItem="gf2-dH-A8i" secondAttribute="trailing" id="mmP-TG-rM6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DsN-gY-x7w"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Paidy" id="UEo-uh-oW6">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="deF-2m-bYI">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="62A-S6-DUy">
+                                <rect key="frame" x="20" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="back-btn"/>
+                                <connections>
+                                    <action selector="btnBackAction:" destination="A0s-Ga-dC9" eventType="touchUpInside" id="qsF-WC-efT"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="webView" destination="gf2-dH-A8i" id="7fo-ud-68A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ytN-wz-Bcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2446" y="145"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2CF-LJ-djc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nd0-Cn-G7z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gl9-lb-xRz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.043137254899999998" green="0.47058823529999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.89411764709999997" green="0.90980392160000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GoG-h7-iQU" kind="relationship" relationship="rootViewController" id="aVj-U6-Qbz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYr-OK-Y7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="144.64285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back-btn" width="30" height="30"/>
+    </resources>
+</document>

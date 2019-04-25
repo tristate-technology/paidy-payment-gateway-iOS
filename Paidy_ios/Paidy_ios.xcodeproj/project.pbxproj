@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0521A322702BD600086059 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CD0521A222702BD600086059 /* Readme.md */; };
+		CD6FFBBB226D8B2A00C040AA /* CustomizedTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FFBBA226D8B2A00C040AA /* CustomizedTextfield.swift */; };
+		CD6FFBC0226D9CA000C040AA /* paidy_Sandbox.html in Resources */ = {isa = PBXBuildFile; fileRef = CD6FFBBE226D9CA000C040AA /* paidy_Sandbox.html */; };
+		CD6FFBC1226D9CA000C040AA /* pandy-favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FFBBF226D9CA000C040AA /* pandy-favicon.png */; };
+		CD6FFBC5226DC15000C040AA /* paidy_Live.html in Resources */ = {isa = PBXBuildFile; fileRef = CD6FFBC4226DC15000C040AA /* paidy_Live.html */; };
+		CD6FFBC8226DE4E600C040AA /* PaymentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FFBC7226DE4E600C040AA /* PaymentInfo.swift */; };
+		CD95EC56226B0128009B65B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95EC55226B0128009B65B4 /* AppDelegate.swift */; };
+		CD95EC5B226B0128009B65B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD95EC59226B0128009B65B4 /* Main.storyboard */; };
+		CD95EC5D226B0129009B65B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD95EC5C226B0129009B65B4 /* Assets.xcassets */; };
+		CD95EC60226B0129009B65B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD95EC5E226B0129009B65B4 /* LaunchScreen.storyboard */; };
+		CD95EC68226B018A009B65B4 /* PaymentDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95EC67226B018A009B65B4 /* PaymentDetailController.swift */; };
+		CD95EC6A226B1875009B65B4 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95EC69226B1875009B65B4 /* PaymentViewController.swift */; };
+		CD95EC6F226B2227009B65B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD95EC6E226B2227009B65B4 /* WebKit.framework */; };
+		EA3B7910E43A55785633F2DB /* Pods_Paidy_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E5812AFB6528C6DDD7D2F /* Pods_Paidy_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		264FDB9822C19E39C65003D1 /* Pods-Paidy_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paidy_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paidy_ios/Pods-Paidy_ios.release.xcconfig"; sourceTree = "<group>"; };
+		5370FD84E3EEB2C095E2EA43 /* Pods-Paidy_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paidy_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paidy_ios/Pods-Paidy_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		650E5812AFB6528C6DDD7D2F /* Pods_Paidy_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paidy_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0521A222702BD600086059 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		CD6FFBBA226D8B2A00C040AA /* CustomizedTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedTextfield.swift; sourceTree = "<group>"; };
+		CD6FFBBE226D9CA000C040AA /* paidy_Sandbox.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paidy_Sandbox.html; sourceTree = "<group>"; };
+		CD6FFBBF226D9CA000C040AA /* pandy-favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pandy-favicon.png"; sourceTree = "<group>"; };
+		CD6FFBC4226DC15000C040AA /* paidy_Live.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paidy_Live.html; sourceTree = "<group>"; };
+		CD6FFBC7226DE4E600C040AA /* PaymentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfo.swift; sourceTree = "<group>"; };
+		CD95EC52226B0128009B65B4 /* Paidy_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paidy_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD95EC55226B0128009B65B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD95EC5A226B0128009B65B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD95EC5C226B0129009B65B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD95EC5F226B0129009B65B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD95EC61226B0129009B65B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD95EC67226B018A009B65B4 /* PaymentDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailController.swift; sourceTree = "<group>"; };
+		CD95EC69226B1875009B65B4 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CD95EC6E226B2227009B65B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD95EC4F226B0128009B65B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD95EC6F226B2227009B65B4 /* WebKit.framework in Frameworks */,
+				EA3B7910E43A55785633F2DB /* Pods_Paidy_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DFA6178361210B518BE08D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5370FD84E3EEB2C095E2EA43 /* Pods-Paidy_ios.debug.xcconfig */,
+				264FDB9822C19E39C65003D1 /* Pods-Paidy_ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD0521A4227031BE00086059 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD95EC67226B018A009B65B4 /* PaymentDetailController.swift */,
+				CD95EC69226B1875009B65B4 /* PaymentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD0521A5227031D100086059 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FFBC7226DE4E600C040AA /* PaymentInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD0521A6227031E300086059 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD95EC59226B0128009B65B4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD0521A72270320D00086059 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FFBBA226D8B2A00C040AA /* CustomizedTextfield.swift */,
+				CD6FFBBE226D9CA000C040AA /* paidy_Sandbox.html */,
+				CD6FFBC4226DC15000C040AA /* paidy_Live.html */,
+				CD6FFBBF226D9CA000C040AA /* pandy-favicon.png */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CD95EC49226B0128009B65B4 = {
+			isa = PBXGroup;
+			children = (
+				CD0521A222702BD600086059 /* Readme.md */,
+				CD95EC54226B0128009B65B4 /* Paddy_ios */,
+				CD95EC53226B0128009B65B4 /* Products */,
+				CD95EC6D226B2227009B65B4 /* Frameworks */,
+				76DFA6178361210B518BE08D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CD95EC53226B0128009B65B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD95EC52226B0128009B65B4 /* Paidy_ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD95EC54226B0128009B65B4 /* Paddy_ios */ = {
+			isa = PBXGroup;
+			children = (
+				CD95EC55226B0128009B65B4 /* AppDelegate.swift */,
+				CD95EC5C226B0129009B65B4 /* Assets.xcassets */,
+				CD95EC5E226B0129009B65B4 /* LaunchScreen.storyboard */,
+				CD95EC61226B0129009B65B4 /* Info.plist */,
+				CD0521A4227031BE00086059 /* Controller */,
+				CD0521A5227031D100086059 /* Model */,
+				CD0521A6227031E300086059 /* View */,
+				CD0521A72270320D00086059 /* Helper */,
+			);
+			path = Paddy_ios;
+			sourceTree = "<group>";
+		};
+		CD95EC6D226B2227009B65B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD95EC6E226B2227009B65B4 /* WebKit.framework */,
+				650E5812AFB6528C6DDD7D2F /* Pods_Paidy_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD95EC51226B0128009B65B4 /* Paidy_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD95EC64226B0129009B65B4 /* Build configuration list for PBXNativeTarget "Paidy_ios" */;
+			buildPhases = (
+				DC6AB5FB6A103F2F408300AB /* [CP] Check Pods Manifest.lock */,
+				CD95EC4E226B0128009B65B4 /* Sources */,
+				CD95EC4F226B0128009B65B4 /* Frameworks */,
+				CD95EC50226B0128009B65B4 /* Resources */,
+				1F7FE040FBC26D533DEF8CEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paidy_ios;
+			productName = Paddy_ios;
+			productReference = CD95EC52226B0128009B65B4 /* Paidy_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD95EC4A226B0128009B65B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Tristate;
+				TargetAttributes = {
+					CD95EC51226B0128009B65B4 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = CD95EC4D226B0128009B65B4 /* Build configuration list for PBXProject "Paidy_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD95EC49226B0128009B65B4;
+			productRefGroup = CD95EC53226B0128009B65B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD95EC51226B0128009B65B4 /* Paidy_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD95EC50226B0128009B65B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0521A322702BD600086059 /* Readme.md in Resources */,
+				CD6FFBC0226D9CA000C040AA /* paidy_Sandbox.html in Resources */,
+				CD95EC60226B0129009B65B4 /* LaunchScreen.storyboard in Resources */,
+				CD6FFBC1226D9CA000C040AA /* pandy-favicon.png in Resources */,
+				CD95EC5D226B0129009B65B4 /* Assets.xcassets in Resources */,
+				CD6FFBC5226DC15000C040AA /* paidy_Live.html in Resources */,
+				CD95EC5B226B0128009B65B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7FE040FBC26D533DEF8CEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Paidy_ios/Pods-Paidy_ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Paidy_ios/Pods-Paidy_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6AB5FB6A103F2F408300AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paidy_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD95EC4E226B0128009B65B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6FFBC8226DE4E600C040AA /* PaymentInfo.swift in Sources */,
+				CD95EC68226B018A009B65B4 /* PaymentDetailController.swift in Sources */,
+				CD6FFBBB226D8B2A00C040AA /* CustomizedTextfield.swift in Sources */,
+				CD95EC6A226B1875009B65B4 /* PaymentViewController.swift in Sources */,
+				CD95EC56226B0128009B65B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD95EC59226B0128009B65B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD95EC5A226B0128009B65B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD95EC5E226B0129009B65B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD95EC5F226B0129009B65B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD95EC62226B0129009B65B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD95EC63226B0129009B65B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD95EC65226B0129009B65B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5370FD84E3EEB2C095E2EA43 /* Pods-Paidy_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 327TPG23FM;
+				INFOPLIST_FILE = Paddy_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tristatetechnology.Paidy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Tristate General";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD95EC66226B0129009B65B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264FDB9822C19E39C65003D1 /* Pods-Paidy_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 327TPG23FM;
+				INFOPLIST_FILE = Paddy_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tristatetechnology.Paidy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Tristate General";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD95EC4D226B0128009B65B4 /* Build configuration list for PBXProject "Paidy_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD95EC62226B0129009B65B4 /* Debug */,
+				CD95EC63226B0129009B65B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD95EC64226B0129009B65B4 /* Build configuration list for PBXNativeTarget "Paidy_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD95EC65226B0129009B65B4 /* Debug */,
+				CD95EC66226B0129009B65B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD95EC4A226B0128009B65B4 /* Project object */;
+}
