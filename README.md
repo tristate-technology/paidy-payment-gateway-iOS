@@ -13,7 +13,7 @@ https://paidy.com/docs/en/payments.html
 # Sandbox mode:
  
 ### Step 1: Download source code
-### Step 2: Replace your sandbox environment key in paidy_snadbox.html file. 
+### Step 2: Replace your sandbox environment key in paidy_Sandbox.html file. 
 ```
 var config = {
                           // Put your sandbox enviorment key
